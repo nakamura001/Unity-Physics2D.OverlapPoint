@@ -6,8 +6,6 @@ public class Main : MonoBehaviour {
 	public Text infoText;
 
 	void Update () {
-		Vector3 pos = gameObject.transform.position;
-		Vector3 dir = -gameObject.transform.right;
 		Collider2D collider = null;
 		if (Input.GetKey(KeyCode.Mouse0)) {
 			Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
